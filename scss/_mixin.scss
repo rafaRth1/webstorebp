@@ -1,0 +1,10 @@
+/******* MIXIN IMG*/
+
+@mixin img-pst($img,$hg) {
+    background-image: url($img);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: $hg;
+}
+

@@ -1,0 +1,482 @@
+/****** Fuentes*******/
+/****** COLORES ******/
+/******* MIXIN IMG*/
+body {
+  background-color: #000000;
+}
+
+/*UTILIDADES*/
+.contenedor-comprar {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.site-main-comprar .espacio {
+  height: 120px;
+  width: 100%;
+  background-color: #000000;
+}
+
+.site-main-comprar .review-img h1 {
+  margin: 0 !important;
+  font-size: 5rem;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.site-main-comprar .review-img .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.site-main-comprar .review-img .cards .card-bp {
+  text-align: center;
+}
+
+.site-main-comprar .review-img .cards .card-bp .descrip {
+  transition: .2s ease-in-out;
+  cursor: pointer;
+}
+
+.site-main-comprar .review-img .cards .card-bp .descrip:hover {
+  background-color: #ffffff;
+}
+
+.site-main-comprar .review-img .cards .card-bp .descrip:hover p {
+  color: #000000;
+}
+
+.site-main-comprar .review-img .cards .card-bp .descrip:hover a {
+  color: #000000;
+}
+
+.site-main-comprar .review-img .cards .card-bp .descrip p {
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+}
+
+.site-main-comprar .review-img .cards .card-bp .descrip a {
+  font-size: 1.6rem;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+address {
+  color: #ffffff;
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.7rem;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* .box-recuadro-comprar{
+    .content-box{
+        width: 400px;
+        height: 400px;
+        background-color: $c-white;
+    }
+}
+ */
+/* font-family: 'Oswald', sans-serif; */
+html {
+  font-size: 62.5%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* body{
+    background-color: $c-black;
+} */
+/***** UTILIDADES ******/
+/**********  ESTILO DE LOS BOTONES************/
+.redi-btn {
+  padding: 2rem;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/*******  Header  **********/
+.site-header {
+  background-color: #000000;
+  opacity: 0.8;
+  position: fixed;
+  width: 100%;
+}
+
+.site-header .bar-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.site-header .bar-navigation #logo {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+}
+
+.site-header .bar-navigation #logo p {
+  text-transform: uppercase;
+  color: #a29c9c;
+  border: #ffffff 4px solid;
+  padding: 1rem 1.8rem;
+}
+
+.site-header .bar-navigation #logo p span {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.site-header .bar-navigation .bar-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-header .bar-navigation .bar-menu ul li {
+  list-style: none;
+  padding: 1.5rem;
+}
+
+.site-header .bar-navigation .bar-menu ul li .active {
+  color: #ffffff;
+}
+
+.site-header .bar-navigation .bar-menu ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  color: #a29c9c;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+
+.site-header .bar-navigation .bar-menu ul li a:hover {
+  color: #ffffff;
+}
+
+/******* Main******/
+.site-main .view-imgPrin {
+  background-image: url("https://w.wallhaven.cc/full/x1/wallhaven-x1exmd.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.site-main .view-imgPrin .text-view h1 {
+  margin: 2rem;
+  font-size: 8rem;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.site-main .site-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000000;
+}
+
+.site-main .site-boxes .box-one {
+  width: 50%;
+  height: 60rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.site-main .site-boxes .box-one span {
+  font-size: 5rem;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+
+.site-main .site-boxes .box-two {
+  background-image: url("https://w.wallhaven.cc/full/47/wallhaven-47wpqy.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60rem;
+  width: 50%;
+}
+
+.site-main .sample-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.site-main .sample-img .img-one {
+  background-image: url("https://w.wallhaven.cc/full/eo/wallhaven-eo89pl.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+}
+
+.site-main .sample-img .img-two {
+  background-image: url("https://w.wallhaven.cc/full/p2/wallhaven-p23gg9.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+}
+
+.site-main .sample-img .img-three {
+  background-image: url("https://w.wallhaven.cc/full/od/wallhaven-odppgl.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+}
+
+.site-main .sample-backpacks {
+  background-color: #000000;
+  height: 85rem;
+}
+
+.site-main .sample-backpacks .text-oferta {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #ffffff;
+}
+
+.site-main .sample-backpacks .text-oferta span {
+  font-size: 6rem;
+  text-transform: uppercase;
+}
+
+.site-main .sample-backpacks .text-oferta p {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.site-main .sample-backpacks .sample-img-backps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.site-main .sample-backpacks .sample-img-backps .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.site-main .sample-backpacks .sample-img-backps .card img {
+  width: 35rem;
+  margin-left: 2rem;
+}
+
+.site-main .sample-backpacks .sample-img-backps .card .section-precio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 4rem;
+  -webkit-transition: .5s all ease-in-out;
+  transition: .5s all ease-in-out;
+}
+
+.site-main .sample-backpacks .sample-img-backps .card .section-precio:hover {
+  background-color: #ffffff;
+}
+
+.site-main .sample-backpacks .sample-img-backps .card .section-precio:hover span {
+  color: #000000;
+}
+
+.site-main .sample-backpacks .sample-img-backps .card .section-precio:hover a {
+  color: #000000;
+}
+
+.site-main .sample-backpacks .sample-img-backps .card .section-precio span {
+  font-size: 3rem;
+  font-family: "Oswald", sans-serif;
+  padding: .5rem;
+  color: #ffffff;
+}
+
+.site-main .sample-backpacks .sample-img-backps .card .section-precio a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.site-main .weAbout {
+  background-image: url("https://w.wallhaven.cc/full/4l/wallhaven-4l25ly.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 65rem;
+}
+
+.site-main .weAbout .background-view {
+  background-color: #000000;
+  opacity: .5;
+  width: 50%;
+  height: 65rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.site-main .weAbout .background-view .text-we {
+  width: 50%;
+  padding: 3rem;
+  max-height: 80%;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.site-main .weAbout .background-view .text-we span {
+  font-size: 5rem;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.site-main .weAbout .background-view .text-we p {
+  font-size: 2rem;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  line-height: 3rem;
+}
+
+.site-main section {
+  padding: 5rem;
+  background-color: #000000;
+}
+
+.site-main section #site-formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.site-main section #site-formulario .formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.site-main section #site-formulario .formulario input {
+  width: 30rem;
+  height: 4rem;
+  font-family: "Oswald", sans-serif;
+  margin: .4rem;
+}
+
+.site-main section #site-formulario .formulario input[type="submit"] {
+  width: 10rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.site-main section #site-formulario .formulario textarea {
+  width: 30rem;
+  margin: .4rem;
+}
+
+.site-main section #site-formulario #contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 50rem;
+}
+
+.site-main section #site-formulario #contacto span {
+  font-size: 6rem;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.site-main section #site-formulario #contacto p {
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+}
+
+.site-main section #site-formulario #contacto a {
+  color: #ffffff;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+}
+
+/* COMPRAR.HTML ESTILOS*/

@@ -1,0 +1,77 @@
+body{
+    background-color: $c-black;
+}
+/*UTILIDADES*/
+.contenedor-comprar{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.site-main-comprar{
+    .espacio{
+        height: 120px;
+        width: 100%;
+        background-color: $c-black;
+    }
+    .review-img{
+        h1{
+            margin: 0!important;
+            font-size: 5rem;
+            font-family: 'Oswald', sans-serif;
+            color: $c-white;  
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .cards{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            .card-bp{
+                text-align: center;
+                .descrip{
+                    transition: .2s ease-in-out;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: $c-white;
+                        p{
+                            color: $c-black;
+                        }
+
+                        a{
+                            color: $c-black;
+                        }
+                    }
+                    p{
+                        font-size: 2rem;
+                        font-family: 'Oswald', sans-serif;
+                        color: $c-white;
+                    }
+
+                    a{
+                        font-size: 1.6rem;
+                        font-family: 'Oswald', sans-serif;
+                        color: $c-white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+address{
+    color: $c-white;
+    text-align: center;
+    margin: 2rem;
+    font-size: 1.7rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* .box-recuadro-comprar{
+    .content-box{
+        width: 400px;
+        height: 400px;
+        background-color: $c-white;
+    }
+}
+ */
